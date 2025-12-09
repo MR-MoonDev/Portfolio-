@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
               {/* Added Resume Button */}
               <a
-                href="/Muneeb.pdf"
+                href="../assets/Muneeb.pdf" // Replace with actual resume path
                 download
                 className="group px-8 py-3 rounded-full  bg-slate-800 text-white hover:bg-slate-700 font-medium transition-all shadow-lg flex items-center justify-center gap-2"
               >
