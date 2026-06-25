@@ -22,7 +22,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-      <AIChat />
+      {/* <AIChat /> */}
     </div>
   );
 }

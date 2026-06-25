@@ -45,10 +45,10 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center md:text-left order-2 md:order-1"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-primary text-sm font-medium mb-6 backdrop-blur-sm">
+            {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700 text-primary text-sm font-medium mb-6 backdrop-blur-sm">
               <Cpu size={16} />
               <span>AI-Powered Developer</span>
-            </div>
+            </div> */}
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight">
               {HERO_CONTENT.greeting} <br className="hidden md:block" />
@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
               </div>
 
               {/* Floating Elements */}
-              <motion.div
+              {/* <motion.div
                 animate={{ y: [-10, 10, -10] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute bottom-10 -left-4 md:bottom-20 md:-left-8 bg-slate-800/90 backdrop-blur-md p-3 rounded-xl border border-slate-700 shadow-xl flex items-center gap-3"
@@ -132,7 +132,7 @@ const Hero: React.FC = () => {
                   <p className="text-xs text-gray-400 uppercase font-bold tracking-wider">System</p>
                   <p className="text-sm font-bold text-white">Online</p>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </div>
           </motion.div>
 
